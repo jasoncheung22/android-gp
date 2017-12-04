@@ -2671,7 +2671,7 @@ MonoBehaviour:
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 04a842e316b6f44bf8da702de26a8ed6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -10484,7 +10484,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 505750894}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.6849365, z: 0}
+  m_LocalPosition: {x: 0, y: 89.31506, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 844119961}
@@ -10492,7 +10492,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -50}
+  m_AnchoredPosition: {x: 0, y: 40}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &505750896
@@ -11146,8 +11146,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 3, z: 1}
-  m_Center: {x: 0, y: -13.5, z: 0}
+  m_Size: {x: 58.014725, y: 3, z: 1}
+  m_Center: {x: 2.515108, y: -13.5, z: 0.00000004087333}
 --- !u!1 &619661403
 GameObject:
   m_ObjectHideFlags: 0
@@ -19273,6 +19273,36 @@ Prefab:
       propertyPath: damageImage
       value: 
       objectReference: {fileID: 1156389869}
+    - target: {fileID: 82403756804228308, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 020da05c73e8d0441a798a7951bfadc3, type: 3}
+    - target: {fileID: 114407204383024622, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: deathClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5693dabfc2767c541bceb80565b0f9ff, type: 3}
+    - target: {fileID: 82029794538228800, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d896e37a0c045094fabe9d5114f11829, type: 3}
+    - target: {fileID: 82029794538228800, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114926573987583492, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: damagePerShot
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114926573987583492, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: timeBetweenBullets
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d5e0ef38f88abc4c9d810abc30ac438, type: 2}
   m_IsPrefabParent: 0
@@ -19301,7 +19331,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 0.39705884, g: 0.3591047, b: 0.38724786, a: 1}
+  m_Color: {r: 0.38235295, g: 0.38235295, b: 0.38235295, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -19310,9 +19340,9 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.946
     m_Bias: 0.05
-    m_NormalBias: 0.4
+    m_NormalBias: 0.44
     m_NearPlane: 0.2
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
@@ -19321,7 +19351,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -19454,8 +19484,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 3, z: 1}
-  m_Center: {x: 0, y: -13.5, z: 0}
+  m_Size: {x: 61.869766, y: 3, z: 1}
+  m_Center: {x: 2.4453075, y: -13.5, z: 0.000000056304977}
 --- !u!1 &857548383
 GameObject:
   m_ObjectHideFlags: 0
@@ -27108,8 +27138,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 3, z: 1}
-  m_Center: {x: 0, y: -13.5, z: 0}
+  m_Size: {x: 57.893307, y: 3, z: 1}
+  m_Center: {x: 0.93779546, y: -13.5, z: -0.0000000078651325}
 --- !u!1 &1010009699
 GameObject:
   m_ObjectHideFlags: 0
@@ -40620,8 +40650,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 3, z: 1}
-  m_Center: {x: 0, y: -13.5, z: 0}
+  m_Size: {x: 56.623215, y: 3, z: 1}
+  m_Center: {x: 0.61360264, y: -13.5, z: 0.000000011497438}
 --- !u!1 &1977640315
 GameObject:
   m_ObjectHideFlags: 0

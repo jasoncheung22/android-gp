@@ -6671,8 +6671,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 3, z: 1}
-  m_Center: {x: 0, y: -13.5, z: 0}
+  m_Size: {x: 56.28305, y: 3, z: 1}
+  m_Center: {x: 1.9963388, y: -13.5, z: 0.000000084602306}
 --- !u!1 &434391826
 GameObject:
   m_ObjectHideFlags: 0
@@ -14668,8 +14668,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 3, z: 1}
-  m_Center: {x: 0, y: -13.5, z: 0}
+  m_Size: {x: 55.470078, y: 3, z: 1}
+  m_Center: {x: 1.5926808, y: -13.5, z: 0.000000034334434}
 --- !u!1 &733120849
 GameObject:
   m_ObjectHideFlags: 0
@@ -15423,6 +15423,36 @@ Prefab:
       propertyPath: damageImage
       value: 
       objectReference: {fileID: 1156389869}
+    - target: {fileID: 82403756804228308, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 020da05c73e8d0441a798a7951bfadc3, type: 3}
+    - target: {fileID: 114407204383024622, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: deathClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5693dabfc2767c541bceb80565b0f9ff, type: 3}
+    - target: {fileID: 82029794538228800, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d896e37a0c045094fabe9d5114f11829, type: 3}
+    - target: {fileID: 82029794538228800, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114926573987583492, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: damagePerShot
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114926573987583492, guid: 4d5e0ef38f88abc4c9d810abc30ac438,
+        type: 2}
+      propertyPath: timeBetweenBullets
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d5e0ef38f88abc4c9d810abc30ac438, type: 2}
   m_IsPrefabParent: 0
@@ -17548,8 +17578,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 3, z: 1}
-  m_Center: {x: 0, y: -13.5, z: 0}
+  m_Size: {x: 61.97102, y: 3, z: 1}
+  m_Center: {x: 2.3494318, y: -13.5, z: -0.000000040111296}
 --- !u!1 &1060778600
 GameObject:
   m_ObjectHideFlags: 0
@@ -22210,8 +22240,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 3, z: 1}
-  m_Center: {x: 0, y: -13.5, z: 0}
+  m_Size: {x: 59.685326, y: 3, z: 1}
+  m_Center: {x: 2.8537707, y: -13.5, z: -0.0000001449297}
 --- !u!1 &1234645226
 GameObject:
   m_ObjectHideFlags: 0
